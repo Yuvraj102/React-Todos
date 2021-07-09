@@ -58,17 +58,4 @@ class Form extends React.Component {
 }
 export default Form;
 
-//FIRST
-// this.props.setTodos((_, props) => [
-//   ...props.todos,
-//   { text: props.inputText, completed: false, id: Math.random() * 1000 },
-// ]);
 
-//SECOND
-// this.props.setTodos(function (_, props) {
-//   console.log("this is props:" + props);
-//   return [
-//     ...props.todos,
-//     { text: props.inputText, completed: false, id: Math.random() * 1000 },
-//   ];
-// });
